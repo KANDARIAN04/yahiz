@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+    color: #fff;
+}
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+	color: #fff;
+}
+.banner{
+	height: 100vh;
+	width: 100%;
+	background:url('b1ec770f22bab5ae8b65a975640386dc.jpg'),url('banner.jpg');
+	background-position: top;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.banner .navbar{
+	margin-top:1%;
+	margin-left: 35%;
+}
+.banner .navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+}
+.banner .nav{
+	margin-right:10%; 
+}
+.banner .nav li a{
+	color:#fff;
+	font-size: 1.2em;
+}
+.bar2{
+    margin-top: 5%;
+    margin-left: 10%;
+    position: left;
+    background: transparent;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.bar22{
+	margin-top: 5%;
+    margin-left: 7%;
+	border: 2px solid transparent;
+	padding: 15px 5px 300px 25px;
+	box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+	background-color: #06475db0;
+}
+
+.nav2
+{
+	margin-left: 15%;
+
+}
+.nav2 a
+{
+	color: #fff;
+}
+.nav2 a:hover
+{
+	color: #0092c3b0;
+}
+#course
+{
+	margin-left: 20%;
+	margin-top: 7%;
+	text-align: center;
+	
+}
+#course .course-box
+{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 1rem;
+	margin-top: -70%;
+	margin-left: 10%;
+	
+}
+#course .courses
+{
+	text-align: start;
+	background-color: transparent;
+	height: 100%;
+	position: relative;
+	border: 2px solid #06475db0;
+	background-color: #06475db0;
+}
+#course .courses img
+{
+	width: 100%;
+	height: 60%;
+	background-size: cover;
+	background-position: center;
+}
+#course .courses .detail
+{
+	padding: 15px 15px 0 15px;
+	color: #fff;
+}
+#course .courses .detail i
+{
+	color: #fdc93b;
+	font-size: .9rem;
+}
+#course .courses .cost {
+	background-color: #0b6887;
+	color: #fff;
+	line-height: 70px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	right: 15px;
+	bottom: 70px;
+}
+.rg {
+	margin-top: 2%;
+	position: center;
+	width: 200px;
+}
